@@ -220,7 +220,7 @@ fi
 if [ "$update_profile" = true ]; then
   alias_line="gam() { \"$target_dir/gam/gam\" \"\$@\" ; }"
   if [ "$gamos" == "linux" ]; then
-    update_profile "$HOME/.bashrc" || update_profile "$HOME/.bash_profile"
+    update_profile "$HOME/.zshrc" || update_profile "$HOME/.bashrc" || update_profile "$HOME/.bash_profile"
   elif [ "$gamos" == "macos" ]; then
     update_profile "$HOME/.profile" || update_profile "$HOME/.bash_profile"
   fi
