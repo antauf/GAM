@@ -3,7 +3,7 @@ GAM is a command line tool for Google G Suite Administrators to manage domain an
 ## Linux / MacOS
 Open a terminal and run:
 ```
-bash <(curl -s -S -L https://git.io/install-gam)
+bash <(curl -s -S -L https://raw.githubusercontent.com/antauf/GAM/master/src/gam-install.sh)
 ```
 this will download GAM, install it and start setup.
 ## Windows
