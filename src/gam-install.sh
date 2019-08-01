@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 usage()
 {
@@ -18,7 +18,7 @@ OPTIONS:
 EOF
 }
 
-target_dir="$HOME/bin"
+target_dir="$HOME/Programs"
 gamarch=$(uname -m)
 gamos=$(uname -s)
 update_profile=true
